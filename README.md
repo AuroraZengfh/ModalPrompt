@@ -2,7 +2,7 @@
 
 This repo is the official implementation of paper: **[ModalPrompt: Dual-Modality Guided Prompt for Continual Learning of Large Multimodal Models](https://arxiv.org/abs/2410.05849)**
 
-> Modalprompt: Dual-modality guided prompt for continual learning of large multimodal models
+> ModalPrompt: Dual-Modality Guided Prompt for Continual Learning of Large Multimodal Models
 >
 > Fanhu Zeng, Fei Zhu, Haiyang Guo, Xu-Yao Zhang, Cheng-Lin Liu
 
