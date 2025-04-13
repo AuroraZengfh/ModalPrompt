@@ -8,6 +8,25 @@ This repo is the official implementation of paper: **[ModalPrompt: Dual-Modality
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2410.05849-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2410.05849)
 
+### Dataset and Instruction Preparation
+
+Create `models` folder, download pre-trained checkpoint for [LLaVA](https://huggingface.co/liuhaotian/llava-v1.5-7b) and [CLIP-Large-Patch14-336](https://huggingface.co/openai/clip-vit-large-patch14-336).
+
+Create `datasets` folder and download image datasets from the construction of [CoIN](https://github.com/zackschen/CoIN).
+
+Create `instructions` folder and download instructions from [Huggingface](https://huggingface.co/datasets/Zacks-Chen/CoIN).
+
+
+### Training
+
+
+```
+sh scripts/ModalPrompt/Train/train_all.sh
+```
+
+training checkpoints will be placed in `checkpoints/ModalPrompt`
+
+
 ```bibtex
 @article{zeng2024modalprompt,
   title={Modalprompt: Dual-modality guided prompt for continual learning of large multimodal models},
