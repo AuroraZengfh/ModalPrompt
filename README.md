@@ -45,12 +45,27 @@ Create `instructions` folder and download instructions from [Huggingface](https:
 
 ### Training
 
+Sequentially train a foundation mdoel on various datasets in the form of prompt tuning.
+
+e.g., take llava-v1.5-7b as an example
+
 ```
 sh scripts/ModalPrompt/Train/train_all.sh
 ```
 
 training checkpoints will be placed in `checkpoints/ModalPrompt`
 
+### Evaluation
+
+Evaluate the model on different stages of continual instruction tuning and obtain all the results on backward transfer.
+
+```
+sh scripts/ModalPrompt/Eval/eval_all.sh
+```
+
+
+## :blue_book: Citation
+If you find this work useful, consider giving this repository a star :star: and citing :bookmark_tabs: our paper as follows:
 
 ```bibtex
 @article{zeng2024modalprompt,
