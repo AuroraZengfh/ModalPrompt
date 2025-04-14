@@ -10,6 +10,11 @@ This repo is the official implementation of paper: **[ModalPrompt: Dual-Modality
 
 **Key words: Large multimodal models, Continual instruction tuning, Prompt learning, Parameter efficient learning**
 
+## :newspaper: News
+
+- **[2025.04.12]** We release [Trainig](#Training) and [Evaluation](#Evaluation) script for ModalPrompt. Try it now! :fire:
+- **[2024.10.08]** [ModalPrompt](https://arxiv.org/abs/2410.05849) is available on Arxiv. :candy:
+
 ## :rocket: Quick Start
 
 ### Install
