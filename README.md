@@ -50,7 +50,7 @@ Create `instructions` folder and download instructions from [Huggingface](https:
 
 ### Training
 
-Sequentially train a foundation mdoel on various datasets in the form of prompt tuning.
+Sequentially train a foundation model on various datasets in the form of prompt tuning.
 
 e.g., take llava-v1.5-7b as an example
 
