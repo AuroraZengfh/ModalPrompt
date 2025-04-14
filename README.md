@@ -8,6 +8,33 @@ This repo is the official implementation of paper: **[ModalPrompt: Dual-Modality
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2410.05849-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2410.05849)
 
+**Key words: Large multimodal models, Continual instruction tuning, Prompt learning, Parameter efficient learning**
+
+## :rocket: Quick Start
+
+### Install
+Like [LLaVA](https://github.com/haotian-liu/LLaVA), install the packages following the steps below:
+
+1. Clone this repository
+```bash
+git clone https://github.com/AuroraZengfh/ModalPrompt.git
+cd ModalPrompt
+```
+
+2. Install Package
+```Shell
+conda create -n modalprompt python=3.10 -y
+conda activate modalprompt
+pip install --upgrade pip
+pip install -e .
+```
+
+3. Install additional packages for training cases
+```
+pip install -e ".[train]"
+pip install flash-attn --no-build-isolation
+```
+
 ### Dataset and Instruction Preparation
 
 Create `models` folder, download pre-trained checkpoint for [LLaVA](https://huggingface.co/liuhaotian/llava-v1.5-7b) and [CLIP-Large-Patch14-336](https://huggingface.co/openai/clip-vit-large-patch14-336).
@@ -16,9 +43,7 @@ Create `datasets` folder and download image datasets from the construction of [C
 
 Create `instructions` folder and download instructions from [Huggingface](https://huggingface.co/datasets/Zacks-Chen/CoIN).
 
-
 ### Training
-
 
 ```
 sh scripts/ModalPrompt/Train/train_all.sh
