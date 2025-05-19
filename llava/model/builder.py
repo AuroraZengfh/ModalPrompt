@@ -95,7 +95,7 @@ def load_pretrained_model(model_path, model_base, model_name, prefix_len, cur_ta
                 
                 # todo: tokenizer
                 clip_tokenizer = transformers.AutoTokenizer.from_pretrained(text_tower, cache_dir=None, model_max_length=77, padding_side="right", use_fast=True)
-                model.set_comtinual_eval(tokenizer = tokenizer, clip_tokenizer = clip_tokenizer, prefix_len = prefix_len, cur_task = cur_task, tasks = ['scienceqa','textvqa','imagenet','gqa','vizwiz','grounding','vqav2','ocrvqa'])    
+                model.set_comtinual_eval(tokenizer = tokenizer, clip_tokenizer = clip_tokenizer, prefix_len = prefix_len, cur_task = cur_task, tasks = ['task1','task2','task3','task4','task5','task6','task7','task8'])    
             mm_projector_weights = torch.load(os.path.join(model_base, 'mm_projector.bin'), map_location='cpu')
             mm_projector_weights = {k: v.to(torch.float16) for k, v in mm_projector_weights.items()}
             model.load_state_dict(mm_projector_weights, strict=False)
