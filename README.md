@@ -58,7 +58,7 @@ e.g., take llava-v1.5-7b as an example
 sh scripts/ModalPrompt/Train/train_all.sh
 ```
 
-training checkpoints will be placed in `checkpoints/ModalPrompt`
+training checkpoints will be placed in `checkpoints/ModalPrompt`. Be careful that you should replace the paths in the scripts with your own paths.
 
 ### Evaluation
 
@@ -67,7 +67,8 @@ Evaluate the model on different stages of continual instruction tuning and obtai
 ```
 sh scripts/ModalPrompt/Eval/eval_all.sh
 ```
-
+### Notice
+When implemnt the codebase, we find that it may occur the prolem of initialization when training. We do not find a proper solution to this and impirically disabling line35-37 in llava/model/llava_arch.py will solve the problem.
 
 ## :blue_book: Citation
 If you find this work useful, consider giving this repository a star :star: and citing :bookmark_tabs: our paper as follows:
