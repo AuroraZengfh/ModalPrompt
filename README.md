@@ -62,7 +62,7 @@ training checkpoints will be placed in `checkpoints/ModalPrompt`. Be careful tha
 
 ### Evaluation
 
-Evaluate the model on different stages of continual instruction tuning and obtain all the results on backward transfer. During Evaluation, *GPU number*, *current task* and *total task* have to be set.
+Evaluate the model on different stages of continual instruction tuning and obtain all the results on backward transfer. During Evaluation, *stage*, *model-path*, *current task* and *total task* have to be set.
 
 ```
 sh scripts/ModalPrompt/Eval/eval_all.sh
