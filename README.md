@@ -73,6 +73,8 @@ Note that *current task* is not the task identifier, but the number of trained t
 ### Notice
 1. When implemnt the codebase, we find that it may occur the prolem of initialization when training. We do not find a proper solution to this and impirically disabling line35-37 in llava/model/llava_arch.py will solve the problem.
 
+2. Some of the hyper-parameters are set frozen in our code, you can set them in the parser if you want to automatically search for the best performance.
+
 ## :blue_book: Citation
 If you find this work useful, consider giving this repository a star :star: and citing :bookmark_tabs: our paper as follows:
 
