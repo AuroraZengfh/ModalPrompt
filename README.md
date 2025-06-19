@@ -1,6 +1,6 @@
 # ModalPrompt
 
-This repo is the official implementation of paper: **[ModalPrompt: Dual-Modality Guided Prompt for Continual Learning of Large Multimodal Models](https://arxiv.org/abs/2410.05849)**
+This repo is the official implementation of paper: **[ModalPrompt: Towards Efficient Multimodal Continual Instruction Tuning with Dual-Modality Guided Prompt](https://arxiv.org/abs/2410.05849)**
 
 > ModalPrompt: Dual-Modality Guided Prompt for Continual Learning of Large Multimodal Models
 >
