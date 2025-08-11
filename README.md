@@ -71,7 +71,7 @@ sh scripts/ModalPrompt/Eval/eval_all.sh
 Note that *current task* is not the task identifier, but the number of trained task. Total task is constructed for conventient initialization of all prompts at one time. You can modify the code to remove the parameter of total task when the task of continual instruction learning is unknown, and initializing corresponding prompts for each new task.
 
 ### Notice
-1. When implemnt the codebase, we find that it may occur the prolem of initialization when training. We do not find a proper solution to this and impirically disabling line35-37 in llava/model/llava_arch.py will solve the problem.
+1. When implemnting the codebase, we find that it may occur the prolem of initialization when training. We do not find a proper solution to this and empirically disabling line35-37 in llava/model/llava_arch.py will solve the problem. We welcome suggestions if you find a simpler solution that refrains from switching the code for training and evaluation.
 
 2. Some of the hyper-parameters are set frozen in our code, you can set them in the parser if you want to automatically search for the best performance.
 
