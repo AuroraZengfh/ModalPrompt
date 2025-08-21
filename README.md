@@ -1,8 +1,8 @@
-# ModalPrompt: Dual-Modality Guided Prompt for Continual Learning of Large Multimodal Models
+# ModalPrompt: Towards Efficient Multimodal Continual Instruction Tuning with Dual-Modality Guided Prompt
 
-This repo is the official implementation of paper: **[ModalPrompt: Dual-Modality Guided Prompt for Continual Learning of Large Multimodal Models](https://arxiv.org/abs/2410.05849)**
+This repo is the official implementation of paper: **[ModalPrompt: Towards Efficient Multimodal Continual Instruction Tuning with Dual-Modality Guided Prompt](https://arxiv.org/abs/2410.05849)**
 
-> ModalPrompt: Dual-Modality Guided Prompt for Continual Learning of Large Multimodal Models
+> ModalPrompt: Towards Efficient Multimodal Continual Instruction Tuning with Dual-Modality Guided Prompt
 >
 > Fanhu Zeng, Fei Zhu, Haiyang Guo, Xu-Yao Zhang, Cheng-Lin Liu
 
@@ -81,7 +81,7 @@ If you find this work useful, consider giving this repository a star :star: and 
 
 ```bibtex
 @article{zeng2024modalprompt,
-  title={Modalprompt: Dual-modality guided prompt for continual learning of large multimodal models},
+  title={ModalPrompt: Towards Efficient Multimodal Continual Instruction Tuning with Dual-Modality Guided Prompt},
   author={Zeng, Fanhu and Zhu, Fei and Guo, Haiyang and Zhang, Xu-Yao and Liu, Cheng-Lin},
   journal={arXiv preprint arXiv:2410.05849},
   year={2024}
