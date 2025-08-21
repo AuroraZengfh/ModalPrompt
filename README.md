@@ -11,6 +11,7 @@ This repo is the official implementation of paper: **[ModalPrompt: Dual-Modality
 **Key words: Large multimodal models, Continual instruction tuning, Prompt learning, Parameter efficient learning**
 
 ## :newspaper: News
+- **[2025.08.21]**: **ModalPrompt** has been accepted by **EMNLP 2025 main conference**! :tada:
 - **[2025.06.18]**: Check out our new survey: "[A Comprehensive Survey on Continual Learning in Generative Models](https://arxiv.org/pdf/2506.13045)". We provide a systematic review of continual learning across mainstream generative models—including LLMs, MLLMs, Vision-Language Action Models, and Diffusion Models. Feel free to cite or open pull requests in [Awesome-Continual-Learning-in-Generative-Models](https://github.com/Ghy0501/Awesome-Continual-Learning-in-Generative-Models)!
 - **[2025.04.12]** We release [Trainig](#Training) and [Evaluation](#Evaluation) script for ModalPrompt. Try it now! :fire:
 - **[2024.10.08]** [ModalPrompt](https://arxiv.org/abs/2410.05849) is available on Arxiv. :candy:
