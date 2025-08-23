@@ -83,6 +83,8 @@ Note that *current task* is not the task identifier, but the number of trained t
 
 2. Some of the hyper-parameters are set frozen in our code, you can set them in the parser if you want to automatically search for the best performance.
 
+3. In the experiment of ImageNet, we slightly alter the instruction and add option choice of all category names to the prompt to avoid inaccurate descriptions.
+
 ## :blue_book: Citation
 If you find this work useful, consider giving this repository a star :star: and citing :bookmark_tabs: our paper as follows:
 
