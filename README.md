@@ -72,7 +72,7 @@ training checkpoints will be placed in `checkpoints/ModalPrompt`. Be careful tha
 
 Evaluate the model on different stages of continual instruction tuning and obtain all the results on backward transfer. During Evaluation, *stage*, *model-path*, *current task* and *total task* have to be set.
 
-Note that your config file should contain the two args *mm_text_select_layer* and *mm_text_tower*. If not, follow the sample (config.json)[config.json] and modify it based on your own environment.
+Note that your config file should contain the two args *mm_text_select_layer* and *mm_text_tower*. If not, follow the sample file *config.json* in the repo and modify it based on your own environment.
 
 ```
 sh scripts/ModalPrompt/Eval/eval_all.sh
