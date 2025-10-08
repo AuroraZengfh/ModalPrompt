@@ -788,7 +788,7 @@ def load_model_from_previous_task(model, previous_task_model_path):
     token_num, tokem_dim = model.lm_head.out_features, model.lm_head.in_features
 
     print('Loading additional LLaVA weights...')
-    assert training_args.lora_enable == False and training_args.pt_enable == True, 'only prompt tuning is implemented.'
+    
     if os.path.exists(os.path.join(previous_task_model_path, 'non_lora_trainables.bin')):
         non_lora_trainables = torch.load(os.path.join(previous_task_model_path, 'non_lora_trainables.bin'), map_location='cpu')
     else:
@@ -902,6 +902,8 @@ def train():
             padding_side="right",
             use_fast=True,
         )
+    
+    assert training_args.lora_enable == False and training_args.pt_enable == True, 'only prompt tuning is implemented.'
     # initialize continual prompts for training
     if training_args.pt_enable:
         assert not training_args.lora_enable, 'Only one tuning can be turned on.'
