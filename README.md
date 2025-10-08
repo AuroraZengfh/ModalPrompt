@@ -72,11 +72,13 @@ training checkpoints will be placed in `checkpoints/ModalPrompt`. Be careful tha
 
 Evaluate the model on different stages of continual instruction tuning and obtain all the results on backward transfer. During Evaluation, *stage*, *model-path*, *current task* and *total task* have to be set.
 
+Note that your config file should contain the two args *mm_text_select_layer* and *mm_text_tower*. If not, follow the sample (config.json)[config.json] and modify it based on your own environment.
+
 ```
 sh scripts/ModalPrompt/Eval/eval_all.sh
 ```
 
-Note that *current task* is not the task identifier, but the number of trained task. Total task is constructed for conventient initialization of all prompts at one time. You can modify the code to remove the parameter of total task when the task of continual instruction learning is unknown, and initializing corresponding prompts for each new task.
+*current task* is not the task identifier, but the number of trained task. Total task is constructed for conventient initialization of all prompts at one time. You can modify the code to remove the parameter of total task when the task of continual instruction learning is unknown, and initializing corresponding prompts for each new task.
 
 ### Notice
 1. When implemnting the codebase, we find that it may occur the prolem of initialization when training. We do not find a proper solution to this and empirically disabling line35-37 in llava/model/llava_arch.py will solve the problem. We welcome suggestions if you find a simpler solution that refrains from switching the code for training and evaluation.
