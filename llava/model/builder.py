@@ -93,8 +93,8 @@ def load_pretrained_model(model_path, model_base, model_name, prefix_len, cur_ta
                 cfg_pretrained = AutoConfig.from_pretrained(model_path)
                 model = ModalPrompt.from_pretrained(model_base, low_cpu_mem_usage=True, config=cfg_pretrained, **kwargs)
                 
-                # todo: tokenizer
-                clip_tokenizer = transformers.AutoTokenizer.from_pretrained(text_tower, cache_dir=None, model_max_length=77, padding_side="right", use_fast=True)
+                # tokenizer
+                clip_tokenizer = AutoTokenizer.from_pretrained(text_tower, cache_dir=None, model_max_length=77, padding_side="right", use_fast=True)
                 model.set_comtinual_eval(tokenizer = tokenizer, clip_tokenizer = clip_tokenizer, prefix_len = prefix_len, cur_task = cur_task, num_tasks= num_tasks)    
             mm_projector_weights = torch.load(os.path.join(model_base, 'mm_projector.bin'), map_location='cpu')
             mm_projector_weights = {k: v.to(torch.float16) for k, v in mm_projector_weights.items()}
