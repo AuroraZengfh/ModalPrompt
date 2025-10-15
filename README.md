@@ -54,7 +54,7 @@ Create `models` folder, download pre-trained checkpoint for [LLaVA](https://hugg
 
 Create `datasets` folder and download image datasets from the construction of [CoIN](https://github.com/zackschen/CoIN).
 
-Create `instructions` folder and download instructions from [Huggingface](https://huggingface.co/datasets/Zacks-Chen/CoIN).
+Create `instructions` folder and download instructions from [Huggingface](https://huggingface.co/datasets/Zacks-Chen/CoIN/tree/main/Instructions_Original).
 
 ### Training
 
