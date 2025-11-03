@@ -99,7 +99,8 @@ If you find this work useful, consider giving this repository a star :star: and 
   booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
   pages={12137--12152},
   year={2025}
-}```
+}
+```
 
 ## Acknowledgememnt
 
