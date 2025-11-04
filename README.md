@@ -6,7 +6,7 @@ This repo is the official implementation of paper: **[ModalPrompt: Towards Effic
 >
 > Fanhu Zeng, Fei Zhu, Haiyang Guo, Xu-Yao Zhang, Cheng-Lin Liu
 
-[![arXiv](https://img.shields.io/badge/Arxiv-2410.05849-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2410.05849)
+[![arXiv](https://img.shields.io/badge/Arxiv-2410.05849-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2410.05849) [![](https://img.shields.io/badge/EMNLP-2025-blue)](https://aclanthology.org/2025.emnlp-main.609)
 
 **Key words: Large multimodal models, Continual instruction tuning, Prompt learning, Parameter efficient learning**
 
