@@ -11,7 +11,6 @@ This repo is the official implementation of paper: **[ModalPrompt: Towards Effic
 **Key words: Large multimodal models, Continual instruction tuning, Prompt learning, Parameter efficient learning**
 
 ## :newspaper: News
-- **[2025.11.03]** I will attend in person in EMNLP 2025. We are open to all kinds of communication and collaboration. See you in Suzhou, China!
 - **[2025.11.01]** Our camera ready version is released on [https://aclanthology.org](https://aclanthology.org/2025.emnlp-main.609/), check it out!
 - **[2025.08.21]** **ModalPrompt** has been accepted by **EMNLP 2025 main conference**! :tada:
 - **[2025.06.18]** Check out our new survey: "[Continual Learning for Generative AI: From LLMs to MLLMs and Beyond](https://arxiv.org/pdf/2506.13045)". We provide a systematic review of continual learning across mainstream generative models—including LLMs, MLLMs, Vision-Language Action Models, and Diffusion Models. Feel free to cite or open pull requests in [Awesome-Continual-Learning-in-Generative-Models](https://github.com/Ghy0501/Awesome-Continual-Learning-in-Generative-Models)!
