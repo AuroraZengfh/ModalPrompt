@@ -100,6 +100,13 @@ If you find this work useful, consider giving this repository a star :star: and 
   pages={12137--12152},
   year={2025}
 }
+
+@article{guo2025mcitlib,
+  title={MCITlib: Multimodal Continual Instruction Tuning Library and Benchmark},
+  author={Guo, Haiyang and Zhu, Fei and Zhao, Hongbo and Zeng, Fanhu and Liu, Wenzhuo and Ma, Shijie and Wang, Da-Han and Zhang, Xu-Yao},
+  journal={arXiv preprint arXiv:2508.07307},
+  year={2025}
+}
 ```
 
 ## Acknowledgememnt
