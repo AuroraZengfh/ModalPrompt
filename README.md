@@ -12,7 +12,7 @@ This repo is the official implementation of paper: **[ModalPrompt: Towards Effic
 
 ## :newspaper: News
 - **[2025.11.01]** Our camera ready version is released on [https://aclanthology.org](https://aclanthology.org/2025.emnlp-main.609/), check it out!
-- **[2025.10.14]** ModalPrompt has been integrated into [MCITlib](https://arxiv.org/pdf/2508.07307), a Multimodal Continual Instruction Tuning Library and Benchmark. You can find implementations of different architectures and results on different benchmarks [here](https://github.com/Ghy0501/MCITlib)! 
+- **[2025.10.14]** ModalPrompt has been integrated into [MCITlib](https://arxiv.org/pdf/2508.07307), a **Multimodal Continual Instruction Tuning Library and Benchmark**. You can find implementations of different architectures and results on different benchmarks [here](https://github.com/Ghy0501/MCITlib)! 
 - **[2025.08.21]** **ModalPrompt** has been accepted by **EMNLP 2025 main conference**! :tada:
 - **[2025.06.18]** Check out our new survey: "[Continual Learning for Generative AI: From LLMs to MLLMs and Beyond](https://arxiv.org/pdf/2506.13045)". We provide a systematic review of continual learning across mainstream generative models—including LLMs, MLLMs, Vision-Language Action Models, and Diffusion Models. Feel free to cite or open pull requests in [Awesome-Continual-Learning-in-Generative-Models](https://github.com/Ghy0501/Awesome-Continual-Learning-in-Generative-Models)!
 - **[2025.04.12]** We release [Trainig](#Training) and [Evaluation](#Evaluation) script for ModalPrompt. Try it now! :fire:
@@ -105,6 +105,13 @@ If you find this work useful, consider giving this repository a star :star: and 
   title={MCITlib: Multimodal Continual Instruction Tuning Library and Benchmark},
   author={Guo, Haiyang and Zhu, Fei and Zhao, Hongbo and Zeng, Fanhu and Liu, Wenzhuo and Ma, Shijie and Wang, Da-Han and Zhang, Xu-Yao},
   journal={arXiv preprint arXiv:2508.07307},
+  year={2025}
+}
+
+@article{guo2025continual,
+  title={Continual Learning for Generative AI: From LLMs to MLLMs and Beyond},
+  author={Guo, Haiyang and Zeng, Fanhu and Zhu, Fei and Wang, Jiayi and Wang, Xukai and Zhou, Jingang and Zhao, Hongbo and Liu, Wenzhuo and Ma, Shijie and Zhang, Xu-Yao and others},
+  journal={arXiv preprint arXiv:2506.13045},
   year={2025}
 }
 ```
